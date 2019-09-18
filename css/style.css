@@ -6,11 +6,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Museo Sans', sans-serif;
+}
+
 /* container globale */
 .globale {
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   width: 100%;
-  height: 100vh;
 }
 
 /* header */
@@ -22,9 +25,9 @@ header {
 }
 
 header:after {
-  content:"";
-  display:table;
-  clear:both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .logo-container {
@@ -35,7 +38,7 @@ header:after {
 /* navbar */
 nav {
   background-color: #0D325A;
-  float:left;
+  float: left;
   position: absolute;
   top: 50%;
   left: 30%;
@@ -48,9 +51,9 @@ nav ul {
 }
 
 nav ul:after {
-  content:"";
-  display:table;
-  clear:both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav li {
@@ -83,9 +86,9 @@ nav li a {
 }
 
 .tutor ul {
-  content:"";
-  display:table;
-  clear:both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .tutor li {
@@ -104,7 +107,7 @@ nav li a {
 
 .diventatutor {
   text-decoration: none;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
   text-transform: uppercase;
 }
 
@@ -150,4 +153,96 @@ nav li a {
   padding-bottom: 20px;
   line-height: 55px;
   color: white;
+}
+
+/* container "le scuole di lingua" */
+.scuole {
+  background-color: #f9f9f9;
+}
+
+.titolicentro {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.titolicentro h4 {
+  color: #373a3c;
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.trecolonne {
+  margin-top: 170px;
+}
+
+.floatcontainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.floatcontainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.c-sinistra {
+  float: left;
+  display: inline-block;
+  width: 350px;
+  margin-right: 50px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
+
+.c-centro {
+  float: left;
+  display: inline-block;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.c-destra {
+  float: left;
+  display: inline-block;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(-5%, -50%);
+}
+
+.trecolonne img {
+  width: 180px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.trecolonne p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.trecolonne h6 {
+  color: #7fb802;
+  font-size: 23px;
+  text-align: center;
+}
+/* footer */
+footer {
+  background-color: #0D325A;
+  height: 300px;
+}
+.dubbi {
+  margin-left: 20px;
 }
