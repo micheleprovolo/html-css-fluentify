@@ -33,7 +33,6 @@ header:after {
 }
 
 /* navbar */
-
 nav {
   background-color: #0D325A;
   float:left;
@@ -129,4 +128,26 @@ nav li a {
   /* border-color: #4e8cb6; */
   padding: 8px 10px;
   text-transform: uppercase;
+}
+
+/* container "scegli l'inglese" */
+.scegli {
+  background-image: url("../img/oldman.png");
+  background-color: #0D325A;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.titoloelink {
+  padding: 5%;
+}
+
+.titoloelink h1 {
+  text-align: left;
+  font-size: 40px;
+  padding-bottom: 20px;
+  line-height: 55px;
+  color: white;
 }
