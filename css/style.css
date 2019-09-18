@@ -41,6 +41,7 @@ nav {
   top: 50%;
   left: 30%;
   transform: translate(-30%, -50%);
+  width: 40%;
 }
 
 nav ul {
@@ -54,13 +55,78 @@ nav ul:after {
 }
 
 nav li {
-  font-family: 'Museo Sans';
+  /* font-family: 'Museo Sans'; */
   font-size: 11px;
   float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 13px;
 }
 
 nav li a {
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+}
+
+/* container tutor */
+.tutor {
+  float: left;
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+  width: 400px;
+}
+
+.tutor ul {
+  list-style-type: none;
+}
+
+.tutor ul {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.tutor li {
+  /* font-family: 'Museo Sans'; */
+  float: left;
+  width: 130px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.tutor li a {
+  text-decoration: none;
+  /* color: white; */
+  text-transform: uppercase;
+}
+
+.diventatutor {
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+  text-transform: uppercase;
+}
+
+.login {
+  text-decoration: none;
+  color: white;
+  background-color: #0D325A;
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: #4e8cb6;
+  padding: 8px 25px;
+  text-transform: uppercase;
+}
+
+.piano {
+  text-decoration: none;
+  color: white;
+  background-color: #7fb802;
+  border: 1px solid;
+  border-radius: 5px;
+  /* border-color: #4e8cb6; */
+  padding: 8px 10px;
   text-transform: uppercase;
 }
