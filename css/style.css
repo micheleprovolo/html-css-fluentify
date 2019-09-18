@@ -18,8 +18,49 @@ header {
   background-color: #0D325A;
   height: 100px;
   padding: 20px 90px;
+  position: relative;
+}
+
+header:after {
+  content:"";
+  display:table;
+  clear:both;
 }
 
 .logo-container {
   padding: 0px 20px;
+  float: left;
+}
+
+/* navbar */
+
+nav {
+  background-color: #0D325A;
+  float:left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-30%, -50%);
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+nav li {
+  font-family: 'Museo Sans';
+  font-size: 11px;
+  float: left;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
 }
