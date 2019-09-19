@@ -199,13 +199,14 @@ nav li {
 
 /* footer */
 footer {
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .dubbi {
   background-color: #0D325A;
   padding: 20px;
   color: white;
+  padding-left: 10%;
 }
 
 .dubbi h3 {
@@ -219,7 +220,14 @@ footer {
 
 .referenze {
   background-color: #17406b;
-  height: 300px;
+  /* height: 300px; */
+  padding-top: 20px;
+}
+
+.bloccofloat {
+  padding-left: 140px;
+  padding-right: 90px;
+  padding-bottom: 20px;
 }
 
 .bloccofloat:after {
@@ -231,18 +239,39 @@ footer {
 .link {
   float: left;
   color: white;
-  padding-left: 40px;
+  width: 50%;
+  /* padding-left: 40px; */
 }
 
 .indirizzi {
   float: left;
+  color: white;
+  width: 50%;
+  padding-top: 10px;
+  text-align: right;
 }
 
 .link ul {
   list-style-type: none;
 }
 
+.link li {
+  padding: 10px;
+}
+
 .link li a {
   text-decoration: none;
   color: white;
+}
+
+.indirizzi h4 {
+  padding-bottom: 30px;
+  padding-right: 260px;
+}
+
+.indirizzi p {
+  padding-top: 30px;
+  width: 60%;
+  opacity: .5;
+  line-height: 150%;
 }
