@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Museo Sans', sans-serif;
 }
 
@@ -57,7 +57,6 @@ nav li {
   float: left;
   width: 15%;
 }
-
 
 .menu {
   float: left;
@@ -128,7 +127,7 @@ nav li {
 /* container "le scuole di lingua" */
 .scuole {
   background-color: #f9f9f9;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .titolicentro {
@@ -144,13 +143,13 @@ nav li {
 }
 
 .trecolonne {
-  height: 400px;
+  /* height: 400px; */
 }
 
 .floatcontainer {
-  position: relative;
+  width: 90%;
+  margin: 0 auto;
 }
-
 
 .floatcontainer:after {
   content: "";
@@ -159,32 +158,29 @@ nav li {
 }
 
 .c-sinistra {
-  width: 300px;
+  width: 33%;
   float: left;
-  position: absolute;
-  /* top: 50%;
-  left: 50%; */
-  transform: translate(30px, 20px);
+  padding: 5%;
+
 }
 
 .c-centro {
-  width: 300px;
+  width: 33%;
   float: left;
-  position: absolute;
-  transform: translate(600px, 20px);
+  padding: 5%;
+  margin-top: 70px;
 }
 
 .c-destra {
-  width: 300px;
+  width: 33%;
   float: left;
-  position: absolute;
-  /* right: 25%; */
-  transform: translate(1100px, 20px);
+  padding: 5%;
+  margin-top: 20px;
 }
 
 .img-colonne {
   width: 150px;
-  height: auto;
+  margin: 0 auto;
 }
 
 .trecolonne p {
@@ -227,9 +223,9 @@ footer {
 }
 
 .bloccofloat:after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .link {
